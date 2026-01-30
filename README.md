@@ -1,4 +1,4 @@
-LOAN APPROVAL PREDICTION USING ML AND XAI
+LOAN APPROVAL ANALYTICS
 
 This project builds a machine learning–based system to predict loan approval using financial and demographic data.
 
