@@ -41,13 +41,13 @@ Achieved 98% accuracy with explainability, ensuring reliability for real-world u
 ## Project Architecture
 ```mermaid
 flowchart LR
-
 A[Dataset] --> B[Preprocessing]
-B --> C[Train/Test Split]
+B --> C[Train Test Split]
 C --> D[Model Training]
 D --> E[Evaluation]
-E --> F[Best Model (Random Forest)]
-F --> G[XAI (SHAP, Feature Importance)]
+E --> F[Best Model Random Forest]
+F --> G[XAI SHAP Feature Importance]
+```
 ```
 
 
