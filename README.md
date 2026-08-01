@@ -1,6 +1,6 @@
 LOAN APPROVAL ANALYTICS
 
-This project builds a machine learning–based system to predict loan approval using financial and demographic data.
+Predicts loan approval using Decision Tree, Random Forest and Gradient Boosting with SHAP explainability and data preprocessing.
 
 ## Model Results & Insights
 
