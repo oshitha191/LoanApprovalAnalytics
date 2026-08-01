@@ -45,10 +45,11 @@ Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, 
 -   
 
 ## Results:
-<img width="715" height="511" alt="Screenshot 2026-08-01 212312" src="https://github.com/user-attachments/assets/b6558117-f761-4ce8-85ab-e15c014c2406" />
-<img width="878" height="340" alt="Screenshot 2026-08-01 212322" src="https://github.com/user-attachments/assets/ea33811e-d9d6-4325-af90-648c5942dfec" />
+<img width="878" height="340" alt="Screenshot 2026-08-01 212322" src="https://github.com/user-attachments/assets/ff1556fe-3309-489c-b47b-a9ffb6c3cf25" />
 
 
+
+<img width="715" height="511" alt="Screenshot 2026-08-01 212312" src="https://github.com/user-attachments/assets/b6ed4442-ddb6-4dc6-8961-e22c15ba0996" />
 
 
 
