@@ -2,6 +2,18 @@ LOAN APPROVAL ANALYTICS
 
 Predicts loan approval using Decision Tree, Random Forest and Gradient Boosting with SHAP explainability and data preprocessing.
 
+## Project Architecture
+```mermaid
+flowchart LR
+A[Dataset] --> B[Preprocessing]
+B --> C[Train Test Split]
+C --> D[Model Training]
+D --> E[Evaluation]
+E --> F[Best Model Random Forest]
+F --> G[XAI SHAP Feature Importance]
+```
+```
+
 ## Model Results & Insights
 
 Evaluated multiple ML models, where ensemble methods outperformed others.
@@ -30,6 +42,7 @@ Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, 
 - Consistent top features across methods → robust model behavior
 -  SHAP explains individual predictions clearly
 -   PDP shows non-linear feature impact
+-   
 
 ## Results:
 <img width="715" height="511" alt="Screenshot 2026-08-01 212312" src="https://github.com/user-attachments/assets/6ee56902-9d4f-4e77-8d19-c5d197645539" />
@@ -43,17 +56,6 @@ Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, 
 Random Forest selected as final model due to best overall performance.
 Achieved 98% accuracy with explainability, ensuring reliability for real-world use.
 
-## Project Architecture
-```mermaid
-flowchart LR
-A[Dataset] --> B[Preprocessing]
-B --> C[Train Test Split]
-C --> D[Model Training]
-D --> E[Evaluation]
-E --> F[Best Model Random Forest]
-F --> G[XAI SHAP Feature Importance]
-```
-```
 
 
 
