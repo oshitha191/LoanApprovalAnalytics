@@ -31,7 +31,12 @@ Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, 
 -  SHAP explains individual predictions clearly
 -   PDP shows non-linear feature impact
 
-## Result: Model is both accurate and interpretable
+## Results:
+<img width="715" height="511" alt="Screenshot 2026-08-01 212312" src="https://github.com/user-attachments/assets/6ee56902-9d4f-4e77-8d19-c5d197645539" />
+<img width="878" height="340" alt="Screenshot 2026-08-01 212322" src="https://github.com/user-attachments/assets/9f28e279-bad4-4f64-acc0-740ea57e1580" />
+
+
+
 
 ## Conclusion
 
