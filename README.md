@@ -2,17 +2,7 @@ LOAN APPROVAL ANALYTICS
 
 Predicts loan approval using Decision Tree, Random Forest and Gradient Boosting with SHAP explainability and data preprocessing.
 
-## Project Architecture
-```mermaid
-flowchart LR
-A[Dataset] --> B[Preprocessing]
-B --> C[Train Test Split]
-C --> D[Model Training]
-D --> E[Evaluation]
-E --> F[Best Model Random Forest]
-F --> G[XAI SHAP Feature Importance]
-```
-```
+
 
 ## Model Results & Insights
 
@@ -59,7 +49,17 @@ Random Forest selected as final model due to best overall performance.
 Achieved 98% accuracy with explainability, ensuring reliability for real-world use.
 
 
-
+## Project Architecture
+```mermaid
+flowchart LR
+A[Dataset] --> B[Preprocessing]
+B --> C[Train Test Split]
+C --> D[Model Training]
+D --> E[Evaluation]
+E --> F[Best Model Random Forest]
+F --> G[XAI SHAP Feature Importance]
+```
+```
 
 
 
