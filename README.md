@@ -12,11 +12,11 @@ Predicts loan approval using Decision Tree, Random Forest and Gradient Boosting 
 - Generated loan approval predictions
 
 ## Tech Stack
--Programming Language: Python
--Libraries: Pandas, NumPy, Scikit-learn, SHAP, Matplotlib, Seaborn
--Machine Learning Models: Random Forest, Bagging Classifier, Gradient Boosting, Decision Tree, Logistic Regression, k-Nearest Neighbors (kNN)
--Explainable AI (XAI): SHAP, Permutation Importance, Feature Importance, Partial Dependence Plots   (PDP)
--Development Environment: Jupyter Notebook / Google Colab
+- Programming Language: Python
+- Libraries: Pandas, NumPy, Scikit-learn, SHAP, Matplotlib, Seaborn
+- Machine Learning Models: Random Forest, Bagging Classifier, Gradient Boosting, Decision Tree, Logistic Regression, k-Nearest Neighbors (kNN)
+- Explainable AI (XAI): SHAP, Permutation Importance, Feature Importance, Partial Dependence Plots   (PDP)
+- Development Environment: Jupyter Notebook / Google Colab
 
 ## Project Architecture
 ```mermaid
