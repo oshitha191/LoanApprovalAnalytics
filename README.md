@@ -1,37 +1,43 @@
 LOAN APPROVAL ANALYTICS
 
+## Overview 
 Predicts loan approval using Decision Tree, Random Forest and Gradient Boosting with SHAP explainability and data preprocessing.
 
+## Project Architecture
+```mermaid
+flowchart LR
+    A[Dataset] --> B[Data Preprocessing]
+    B --> C[Exploratory Data Analysis]
+    C --> D[Feature Engineering]
+    D --> E[Train-Test Split]
 
+    E --> F[Model Training]
+    F --> G1[Random Forest]
+    F --> G2[Bagging]
+    F --> G3[Gradient Boosting]
+    F --> G4[Decision Tree]
+    F --> G5[Logistic Regression]
+    F --> G6[kNN]
 
-## Model Results & Insights
+    G1 --> H[Model Evaluation]
+    G2 --> H
+    G3 --> H
+    G4 --> H
+    G5 --> H
+    G6 --> H
 
-Evaluated multiple ML models, where ensemble methods outperformed others.
+    H --> I[Best Model Selection]
+    I --> J[Explainable AI]
+    J --> K1[SHAP]
+    J --> K2[Feature Importance]
+    J --> K3[Permutation Importance]
+    J --> K4[PDP]
 
-Best Model: Random Forest
-  Accuracy: 97.89%, F1: 98.33%, ROC-AUC: 0.9982→ best balance & performance
-
-Second: Bagging (RF base)
-  Accuracy: 97.50%, highest precision → fewer false positives
-
-Gradient Boosting & Decision Tree
-  Similar performance but slightly lower generalization
-
-Logistic Regression & kNN
-  Lower scores → dataset has non-linear patterns
-
- Key insight observed:
-Tree-based ensembles work best due to complex feature relationships.
-
-
-
-## Explainable AI (XAI)
-
-Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, and PDP:
-
-- Consistent top features across methods → robust model behavior
--  SHAP explains individual predictions clearly
--   PDP shows non-linear feature impact
+    K1 --> L[Loan Approval Prediction]
+    K2 --> L
+    K3 --> L
+    K4 --> L
+```
 
 
 ## Results:
@@ -42,24 +48,17 @@ Applied on top 2 models using Feature Importance, Permutation Importance, SHAP, 
 <img width="715" height="511" alt="Screenshot 2026-08-01 212312" src="https://github.com/user-attachments/assets/b6ed4442-ddb6-4dc6-8961-e22c15ba0996" />
 
 
+## Tech Stack
+Programming Language: Python
+Libraries: Pandas, NumPy, Scikit-learn, SHAP, Matplotlib, Seaborn
+Machine Learning Models: Random Forest, Bagging Classifier, Gradient Boosting, Decision Tree, Logistic Regression, k-Nearest Neighbors (kNN)
+Explainable AI (XAI): SHAP, Permutation Importance, Feature Importance, Partial Dependence Plots (PDP)
+Development Environment: Jupyter Notebook / Google Colab
 
-## Conclusion
-
-Random Forest selected as final model due to best overall performance.
-Achieved 98% accuracy with explainability, ensuring reliability for real-world use.
 
 
-## Project Architecture
-```mermaid
-flowchart LR
-A[Dataset] --> B[Preprocessing]
-B --> C[Train Test Split]
-C --> D[Model Training]
-D --> E[Evaluation]
-E --> F[Best Model Random Forest]
-F --> G[XAI SHAP Feature Importance]
-```
-```
+
+
 
 
 
